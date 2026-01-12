@@ -1,0 +1,18 @@
+{
+  "pomodoro" : {
+    "main": "af4d4d",
+    "secondary": "b75f5f"
+  },
+  "short_break": {
+    "main": "2f7c81",
+    "secondary": "44898e"
+  },
+  "long_break": {
+    "main": "356a92",
+    "secondary": "4a799d"
+  },
+  "task_status": {
+    "completed": "ff5a5a5a",
+    "todo": "ffffff"
+  }
+}

@@ -1,0 +1,25 @@
+name: pomodoro
+description: "The **Pomodoro Technique** is a [time management](https://en.wikipedia.org/wiki/Time_management \"Time management\") method developed by Francesco Cirillo in the late 1980s.It uses a [kitchen timer](https://en.wikipedia.org/wiki/Kitchen_timer \"Kitchen timer\") to break work into intervals, typically 25 minutes in length, separated by short breaks. Each interval is known as a *pomodoro*, from the Italian word for tomato, after the tomato-shaped kitchen timer that Cirillo used while he was a university student"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  awesome_notifications: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/sounds/
